@@ -1,0 +1,47 @@
+*{
+    font-family: 'Exo 2', sans-serif;
+  }
+header{
+  padding: 1%;
+}
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+.element1{
+  background:rgb(244, 236, 188); 
+  text-align: center;
+  font-size: 1.5em;
+}
+section{
+  padding: 5%;
+  margin: auto;
+}
+.text1{
+  font-size: 2em;
+  text-align: center;
+}
+.section1{
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10%;
+}
+.item{
+  display: flex;
+  object-fit: cover;
+  margin-left: 30px;
+  height: 400px;
+  width: 300px;
+}
+.foto1, .foto2, .foto3{
+  background-color: rgb(244, 236, 188);
+  padding: 15% 0;
+  text-align: center;
+}
+.button{
+  padding: 2%;
+  margin-top: 10%;
+  font-size: 1.7em;
+}
