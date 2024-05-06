@@ -16,7 +16,6 @@ header{
 }
 section{
   padding: 5%;
-  margin: auto;
 }
 .text1{
   font-size: 2em;
@@ -29,19 +28,37 @@ section{
   gap: 10%;
 }
 .item{
-  display: flex;
+   display: flex;
   object-fit: cover;
-  margin-left: 30px;
   height: 400px;
   width: 300px;
+  transition: 0.5s;
+}
+.item1{
+   display: flex;
+    justify-content: center;
 }
 .foto1, .foto2, .foto3{
   background-color: rgb(244, 236, 188);
-  padding: 15% 0;
+  padding: 15% 10%;
   text-align: center;
 }
 .button{
   padding: 2%;
   margin-top: 10%;
   font-size: 1.7em;
+  transition-duration: 0.4s;
+  background-color: white;
+  border-color: white;
+}
+.button:hover{
+    transform: scale(1.5) !important;
+    background-color: rgb(232, 202, 202);
+    color: white;
+}
+.section1:hover .item{
+  transform: scale(0.9);
+}
+.item:hover{
+  transform: scale(1.1) !important;
 }
